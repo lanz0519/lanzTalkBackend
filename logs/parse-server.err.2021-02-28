@@ -1,0 +1,1 @@
+{"message":"Object not found.","code":101,"level":"error","stack":"Error: Object not found.\n    at D:\\projects\\lanzTalkBackend\\node_modules\\parse-server\\lib\\Routers\\ClassesRouter.js:88:15\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","timestamp":"2021-02-28T03:21:48.786Z"}
