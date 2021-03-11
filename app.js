@@ -23,7 +23,7 @@ var server = PeerServer({
 // var httpsServer = https.createServer(options, app);
 
 const api = new ParseServer({
-  databaseURI: 'postgres://postgres:lanz@localhost:5432/lanz-talk',
+  databaseURI: 'postgres://postgres:lanz@www.lanzyy.com:5432/lanzTalk',
   cloud: './cloud/main.js',
   appId: 'lanz-talk001',
   masterKey: 'lanz-talk',
