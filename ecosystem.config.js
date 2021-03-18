@@ -29,7 +29,7 @@ module.exports = {
         ref: 'origin/master',
         repo: 'git://github.com/lanz0519/lanzTalkBackend',
         path: '/root/lanzTalk',
-        'post-deploy': 'git pull && npm install && pm2 startOrReload ecosystem.config.js --env production'
+        'post-deploy': 'git pull && npm i && pm2 startOrReload ecosystem.config.js --env production'
       }
     }
 };
