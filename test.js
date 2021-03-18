@@ -18,7 +18,7 @@ const app = express();
 
 const dash = new ParseDashboard({
   'apps': [{
-      serverURL: "http://localhost:1234/summer/api/v1/",
+      serverURL: 'http://192.168.0.144:1234/summer/api/v1',
 			appId: "summer",
 			readOnlyMasterKey: "summer-sasdff23ss@",
 			masterKey: "late-summer",
