@@ -7,7 +7,7 @@ module.exports = {
         // First application
       {
       name: 'lanzTalk',
-      script: 'index.js',
+      script: 'app.js',
       output: '/dev/null',
       error: './error.log',
       env: {
