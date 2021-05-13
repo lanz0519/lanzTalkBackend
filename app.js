@@ -40,7 +40,7 @@ const dash = new ParseDashboard({
 })
 
 // Serve the Parse API on the /parse URL prefix
-app.use('/parse', api);
+app.use('/talk', api);
 app.use('/dashboard', dash);
 
 app.listen(PORT, () => console.log('服务器启动成功监听端口：', PORT))
