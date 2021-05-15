@@ -27,21 +27,21 @@ const api = new ParseServer({
   cloud: './cloud/main.js',
   appId: 'lanz-talk001',
   masterKey: 'lanz-talk',
-  serverURL: 'http://localhost:4001/parse'
+  serverURL: 'http://localhost:4001/talk'
 });
 
-const dash = new ParseDashboard({
-  'apps': [{
-      "serverURL": "http://localhost:4001/parse",
-      "appId": "lanz-talk001",
-      "masterKey": "lanz-talk",
-      "appName": "lanz-talk"
-  }]
-})
+// const dash = new ParseDashboard({
+//   'apps': [{
+//       "serverURL": "http://localhost:4001/parse",
+//       "appId": "lanz-talk001",
+//       "masterKey": "lanz-talk",
+//       "appName": "lanz-talk"
+//   }]
+// })
 
 // Serve the Parse API on the /parse URL prefix
 app.use('/talk', api);
-app.use('/dashboard', dash);
+// app.use('/dashboard', dash);
 
 app.listen(PORT, () => console.log('服务器启动成功监听端口：', PORT))
 

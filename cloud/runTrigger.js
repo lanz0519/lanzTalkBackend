@@ -45,4 +45,6 @@ Parse.Cloud.beforeSave('Record', (req) => {
   }
   req.object.set('sender', user)
   req.object.set('receiver', receiver)
+
+  req.object.save(null,{useMasterKey: true})
 })
